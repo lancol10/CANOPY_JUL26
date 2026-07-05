@@ -47,6 +47,33 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "sidebar_WJMRPX": {
+          "type": "sidebar",
+          "settings": {
+            "title": "browse shop",
+            "collection_images": "none",
+            "collection_use_product_image": false,
+            "show_underline": true,
+            "show_collection_images": true,
+            "sidebar_link_use_product_image": false,
+            "show_product_images": true,
+            "aspect_ratio": "natural",
+            "badge1_color": "#000000",
+            "badge1_link": "",
+            "badge1_text": "",
+            "badge2_color": "#000000",
+            "badge2_link": "",
+            "badge2_text": "",
+            "badge3_color": "#000000",
+            "badge3_link": "",
+            "badge3_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "sidebar_WJMRPX"
+      ],
       "settings": {
         "mobile_menu_position": "burger-left",
         "enable_sticky": true,
