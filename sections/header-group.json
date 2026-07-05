@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header Group",
@@ -8,13 +17,13 @@
         "announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "<p><strong>In Season<\/strong> Browse the best in seasonal flavour<\/p>"
+            "text": "<p><strong>In Season</strong> Browse the best in seasonal flavour</p>"
           }
         },
         "announcement_mUnhgD": {
           "type": "announcement",
           "settings": {
-            "text": "<p><strong>Offers & Rollbacks<\/strong> Low prices on 100's of items<\/p>"
+            "text": "<p><strong>Offers & Rollbacks</strong> Low prices on 100's of items</p>"
           }
         }
       },
@@ -39,23 +48,26 @@
     "header": {
       "type": "header",
       "settings": {
-        "logo": "{{ shop.brand.logo }}",
         "mobile_menu_position": "burger-left",
         "enable_sticky": true,
         "hide_menu": true,
         "logo_text": "Canopy",
         "logo_text_font": "montserrat_n7",
         "logo_type_scale": "2",
-        "logo_mobile": "",
+        "logo": "{{ shop.brand.logo }}",
         "logo_width": 130,
         "logo_h1": true,
         "logo_position": "top-left",
         "enable_search": true,
         "minimise_search_mobile": true,
         "minimise_search_desktop": false,
+        "menu": "main-menu-2-0",
         "menu_center": true,
+        "link_toggle": "mobile",
         "repeat_links": true,
         "menu_featured_link": "Offers & Rollbacks",
+        "enable_customer_account_component": false,
+        "customer_account_menu": "customer-account-main-menu",
         "cta_show": true,
         "cta_icon": "leaf",
         "cta_label": "In season now!",
@@ -78,7 +90,7 @@
         "text_HiR7Am": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Great Deals on your weekly shop<\/strong> <a href=\"\/collections\/all\">Shop Now<\/a><\/p>",
+            "text": "<p><strong>Great Deals on your weekly shop</strong> <a href=\"/collections/all\">Shop Now</a></p>",
             "enlarge_text": false,
             "show_on_mobile": true,
             "show_on_desktop": true
