@@ -1,0 +1,105 @@
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "promo_strip_EDmEcb": {
+      "type": "promo-strip",
+      "blocks": {
+        "heading_WmzxC6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Offers & Rollbacks",
+            "heading_size": "h5",
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "text_RDRhrq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Save when you shop with our offers & promotions<\/p>",
+            "enlarge_text": false,
+            "show_on_mobile": false,
+            "show_on_desktop": true
+          }
+        },
+        "button_UqLR9P": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Offers",
+            "button_link": "",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WmzxC6",
+        "text_RDRhrq",
+        "button_UqLR9P"
+      ],
+      "settings": {
+        "section_height": "small",
+        "color_scheme": "3",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "f75b636b-2690-411e-bb81-c40df3033d64": {
+          "type": "text",
+          "settings": {
+            "image": "",
+            "image_width": 120,
+            "enable_follow_on_shop": true,
+            "show_social": true,
+            "text_align": "text-start"
+          }
+        },
+        "link-list-2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "All Departments",
+            "menu": "footer"
+          }
+        },
+        "link-list-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help & Support",
+            "menu": "footer"
+          }
+        },
+        "90d8d4b3-bbaf-4dfa-8098-b8f1abb401a5": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Recipes & Inspiration",
+            "text": "<p>Join our community to get exclusive offers, original recipes, event invites and more...<\/p>",
+            "collapse_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "f75b636b-2690-411e-bb81-c40df3033d64",
+        "link-list-2",
+        "link-list-1",
+        "90d8d4b3-bbaf-4dfa-8098-b8f1abb401a5"
+      ],
+      "settings": {
+        "show_back_to_top": true,
+        "show_payment_icons": true,
+        "show_powered_by": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "bg_color": "#f2f4f3",
+        "text_color": "#333333"
+      }
+    }
+  },
+  "order": [
+    "promo_strip_EDmEcb",
+    "footer"
+  ]
+}

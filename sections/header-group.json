@@ -1,0 +1,105 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p><strong>In Season<\/strong> Browse the best in seasonal flavour<\/p>"
+          }
+        },
+        "announcement_mUnhgD": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p><strong>Offers & Rollbacks<\/strong> Low prices on 100's of items<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-1",
+        "announcement_mUnhgD"
+      ],
+      "settings": {
+        "announcement_homepage_only": false,
+        "link1": "",
+        "link1_label": "",
+        "link2": "",
+        "link2_label": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "bg_color": "#aae13e",
+        "text_color": "#174733",
+        "text_type_scale": "small",
+        "read_time": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo": "{{ shop.brand.logo }}",
+        "mobile_menu_position": "burger-left",
+        "enable_sticky": true,
+        "hide_menu": true,
+        "logo_text": "Canopy",
+        "logo_text_font": "montserrat_n7",
+        "logo_type_scale": "2",
+        "logo_mobile": "",
+        "logo_width": 130,
+        "logo_h1": true,
+        "logo_position": "top-left",
+        "enable_search": true,
+        "minimise_search_mobile": true,
+        "minimise_search_desktop": false,
+        "menu_center": true,
+        "repeat_links": true,
+        "menu_featured_link": "Offers & Rollbacks",
+        "cta_show": true,
+        "cta_icon": "leaf",
+        "cta_label": "In season now!",
+        "cta_link": "",
+        "cta_border_color": "#0d893e",
+        "cta_bg_color": "#0d893e",
+        "cta_text_color": "#ffffff",
+        "bg_color": "#0b4b30",
+        "text_color": "#ffffff",
+        "accent_color": "#c62020",
+        "desktop_menu_bg_color": "#ffffff",
+        "desktop_menu_text_color": "#333333",
+        "mobile_menu_bg_color": "#ffffff",
+        "mobile_menu_text_color": "#333333"
+      }
+    },
+    "promo_strip_6MzXCh": {
+      "type": "promo-strip",
+      "blocks": {
+        "text_HiR7Am": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Great Deals on your weekly shop<\/strong> <a href=\"\/collections\/all\">Shop Now<\/a><\/p>",
+            "enlarge_text": false,
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        }
+      },
+      "block_order": [
+        "text_HiR7Am"
+      ],
+      "settings": {
+        "section_height": "xsmall",
+        "color_scheme": "2",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header",
+    "promo_strip_6MzXCh"
+  ]
+}

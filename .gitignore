@@ -1,0 +1,19 @@
+# Local environment variables and secrets
+.env
+.env.local
+*.secret
+
+# Node / Package Manager dependencies
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Shopify CLI state and local preview configs
+.shopify/
+config.yml
+
+# Operating system files
+.DS_Store
+Thumbs.db
