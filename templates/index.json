@@ -464,7 +464,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Fresh in Today",
+        "title": "Newly added:",
         "heading_align": "text-start",
         "show_view_all": true,
         "collection": "",
