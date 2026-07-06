@@ -685,6 +685,7 @@
         "media_kfniV7",
         "media_Gcc6nq"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_align": "text-center",
@@ -898,6 +899,7 @@
     },
     "featured_collection_wwMP3e": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Ingredients to inspire",
         "heading_align": "text-start",
