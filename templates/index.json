@@ -255,7 +255,7 @@
           "type": "collection",
           "settings": {
             "collection": "bays",
-            "image": "shopify://shop_images/Bays_Kitchen_Dec_24_69fffba1-940d-4c97-a6c6-fb734189b57d.png"
+            "image": "shopify://shop_images/BaysKitchenBeef_Gravy800x1200_59efa39a-5c11-4e20-9c69-764414ea0d7b.jpg"
           }
         },
         "collection-1": {
@@ -483,7 +483,7 @@
         "heading_pnVxzL": {
           "type": "heading",
           "settings": {
-            "heading": "Fantastic fruit!",
+            "heading": "sale!",
             "heading_size": "h1",
             "heading_h1": false
           }
@@ -508,9 +508,9 @@
         "button_ahGArY": {
           "type": "button",
           "settings": {
-            "button_1_label": "Shop Now",
-            "button_1_link": "",
-            "button_1_style": "link",
+            "button_1_label": "Shop sale",
+            "button_1_link": "shopify://collections/on-sale",
+            "button_1_style": "btn btn--primary",
             "button_2_label": "",
             "button_2_link": "",
             "button_2_style": "btn btn--primary"
