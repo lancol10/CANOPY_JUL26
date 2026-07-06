@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "aside",
   "name": "Overlay group",
@@ -22,13 +31,13 @@
         "shipping_calculator_default_country": "United States",
         "promoted_products_visibility": "empty-cart",
         "promoted_products_heading": "Don't miss these deals",
+        "promoted_products_list": [],
         "promoted_products_layout": "carousel",
         "show_media_promotion": false,
         "media_promotion_visibility": "always",
-        "image": "",
         "link_url": "",
         "media_promotion_min_height": 0,
-        "content": "<h4>Eat Fresh!<\/h4>",
+        "content": "<h4>Eat Fresh!</h4>",
         "text_type_scale": "1em",
         "text_width": 240,
         "text_alignment": "justify-start items-center",
@@ -104,6 +113,7 @@
       "blocks": {
         "heading_n7yCFp": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Age verification",
             "heading_size": "h4"
@@ -112,7 +122,7 @@
         "text_GiLFbB": {
           "type": "text",
           "settings": {
-            "text": "<p>You must be at least 18 years old to access this site.<\/p>",
+            "text": "<p>You must be at least 18 years old to access this site.</p>",
             "text_size": ""
           }
         },
@@ -127,13 +137,12 @@
             "button_cancel_style": "btn btn--secondary",
             "button_cancel_bg_color": "#555555",
             "button_cancel_text_color": "#ffffff",
-            "cancel_text": "<p>We sell age restricted products, so you won't be permitted to purchase from our store.<\/p>"
+            "cancel_text": "<p>We sell age restricted products, so you won't be permitted to purchase from our store.</p>"
           }
         },
         "image_wMjJkX": {
           "type": "image",
           "settings": {
-            "image": "",
             "image_position_desktop": "top",
             "image_position_mobile": "hidden"
           }
@@ -145,6 +154,7 @@
         "button_nXK8L7",
         "image_wMjJkX"
       ],
+      "disabled": true,
       "settings": {
         "position": "justify-center items-center",
         "text_align": "text-center",
@@ -176,7 +186,7 @@
         "text_Yq7Mht": {
           "type": "text",
           "settings": {
-            "text": "<p>Join our community to get exclusive offers, original recipes, event invites and more.<\/p>",
+            "text": "<p>Join our community to get exclusive offers, original recipes, event invites and more.</p>",
             "text_size": ""
           }
         },
@@ -206,7 +216,6 @@
         "text_align": "text-center",
         "padding": "large",
         "shrink_width": false,
-        "bg_image": "",
         "heading_color": "#ffffff",
         "text_color": "#ffffff",
         "bg_color": "#000000",

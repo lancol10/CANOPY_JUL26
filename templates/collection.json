@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-banner": {
@@ -27,14 +36,15 @@
             "hide_on_filter": true,
             "min_height": 150,
             "link_url": "",
-            "content": "<h6>Promotion text<\/h6>",
+            "content": "<h6>Promotion text</h6>",
             "text_type_scale": "1em",
             "text_width": 400,
             "text_alignment": "justify-center items-center text-center",
             "button_label": "Optional Button",
             "button_style": "link",
             "text_color": "#ffffff",
-            "tint_color": "#000000"
+            "tint_color": "#000000",
+            "tint_opacity": 20
           }
         }
       },
@@ -45,7 +55,7 @@
         "products_per_page": 24,
         "card_size_mobile": "small",
         "card_size": "small",
-        "show_layout_toggle": true,
+        "show_layout_toggle": false,
         "enable_filtering": true,
         "filters_open_lg": true,
         "stick_on_scroll": true,
@@ -53,6 +63,11 @@
         "expand_filters": true,
         "max_filter_options": 7,
         "enable_sorting": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
         "sort_first": true
       }
     },

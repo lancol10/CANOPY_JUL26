@@ -735,6 +735,7 @@
         "template--16154615972040__e8b8d348-f44f-42ad-8fa1-804ba2f728e9-text-1",
         "template--16154615972040__e8b8d348-f44f-42ad-8fa1-804ba2f728e9-button-1"
       ],
+      "disabled": true,
       "settings": {
         "video_external": "",
         "video_description": "",
@@ -968,6 +969,7 @@
         "buy_buttons_UrHye6",
         "view_more_button_UWgJLi"
       ],
+      "disabled": true,
       "settings": {
         "product": "",
         "media_ratio": "natural",
@@ -1047,6 +1049,7 @@
         "hotspot_rbyeAM",
         "hotspot_x8KngV"
       ],
+      "disabled": true,
       "settings": {
         "show_vendor": true,
         "show_content": true,
