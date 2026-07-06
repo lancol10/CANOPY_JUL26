@@ -117,7 +117,7 @@
         "text_HiR7Am": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Great Deals on your weekly shop</strong> <a href=\"/collections/all\">Shop Now</a></p>",
+            "text": "<p><strong>Delivery from £3.95</strong></p>",
             "enlarge_text": false,
             "show_on_mobile": true,
             "show_on_desktop": true
