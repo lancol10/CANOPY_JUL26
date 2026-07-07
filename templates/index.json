@@ -261,43 +261,49 @@
         "collection_wzxhrQ": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "no-bloat",
+            "image": "shopify://shop_images/NO_BLOAT_Instant_Meal_-_Pasta_Lentil_Vegetable_Bolognese.jpg"
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "regular-girl",
+            "image": "shopify://shop_images/RGOriginaltub800x1200.jpg"
           }
         },
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "free-fod"
           }
         },
         "collection_BDhAaX": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "smoke-n-sanity",
+            "image": "shopify://shop_images/Smoke_n_Sanity_spices._800x620_cea096ce-9e78-47c9-9e01-a470f385cc95.jpg"
           }
         },
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "field-doctor",
+            "image": "shopify://shop_images/FIELD_DOCTOR_Moroccan_Chickpea_Tagine.jpg"
           }
         },
         "ab597d7f-3238-46e5-866a-aeb8739d42dc": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "intoleran",
+            "image": "shopify://shop_images/intoleranlipasemix800x1200.jpg"
           }
         },
         "collection-6": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "froyda",
+            "image": "shopify://shop_images/kormacurry800x1200withicon.jpg"
           }
         },
         "1e19a769-1fef-4a39-b92b-a21743df7807": {
@@ -474,7 +480,7 @@
         "title": "Newly added:",
         "heading_align": "text-start",
         "show_view_all": true,
-        "collection": "",
+        "collection": "coming-soon",
         "layout": "carousel",
         "card_size_mobile": "small",
         "card_size": "small",
