@@ -771,10 +771,10 @@
           "settings": {
             "enable_media": true,
             "media_scale": 100,
-            "heading": "Price Match",
-            "text": "<p>Your weekly essentials price matched to our two biggest competitors, whichever is cheaper. Click here for more saving on the essentials.</p>",
+            "heading": "The Low FODMAP Diet",
+            "text": "",
             "button_label": "Find out more",
-            "button_link": "#"
+            "button_link": "shopify://blogs/news"
           }
         },
         "column_PfBnxQ": {
