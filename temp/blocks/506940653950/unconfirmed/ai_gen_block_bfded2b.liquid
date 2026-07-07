@@ -1,6 +1,181 @@
+{% doc %}
+  @prompt
+    Add custom CSS to reduce the spacing/padding between menu items in the sidebar mega menu navigation, making the items appear closer together without changing their font size or layout.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-menu-spacing-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+  }
+
+  {% if block.settings.target_selector != blank %}
+    {{ block.settings.target_selector }} {
+      {% if block.settings.reduce_vertical_padding %}
+        padding-top: {{ block.settings.vertical_padding }}px !important;
+        padding-bottom: {{ block.settings.vertical_padding }}px !important;
+      {% endif %}
+      
+      {% if block.settings.reduce_vertical_margin %}
+        margin-top: {{ block.settings.vertical_margin }}px !important;
+        margin-bottom: {{ block.settings.vertical_margin }}px !important;
+      {% endif %}
+      
+      {% if block.settings.reduce_gap %}
+        gap: {{ block.settings.gap_size }}px !important;
+      {% endif %}
+    }
+  {% endif %}
+
+  {% if block.settings.custom_css != blank %}
+    {{ block.settings.custom_css }}
+  {% endif %}
+{% endstyle %}
+
+<div class="ai-menu-spacing-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.show_helper_text %}
+    <div style="
+      padding: 12px 16px;
+      background-color: {{ block.settings.helper_bg_color }};
+      color: {{ block.settings.helper_text_color }};
+      border-radius: 4px;
+      font-size: 14px;
+      line-height: 1.5;
+      margin: 16px;
+    ">
+      <strong>Menu spacing CSS active</strong><br>
+      {% if block.settings.target_selector != blank %}
+        Targeting: <code style="background: rgba(0,0,0,0.1); padding: 2px 6px; border-radius: 3px;">{{ block.settings.target_selector }}</code>
+      {% else %}
+        ⚠️ Please enter a CSS selector to target menu items
+      {% endif %}
+    </div>
+  {% endif %}
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Menu spacing CSS",
+  "tag": null,
+  "class": "ai-menu-spacing-block",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Target selector"
+    },
+    {
+      "type": "paragraph",
+      "content": "Enter the CSS selector for the menu items you want to adjust. Common examples: '.header__menu-item', '.mega-menu__item', 'nav a', '.sidebar-menu li'"
+    },
+    {
+      "type": "text",
+      "id": "target_selector",
+      "label": "CSS selector",
+      "placeholder": ".header__menu-item"
+    },
+    {
+      "type": "header",
+      "content": "Vertical padding"
+    },
+    {
+      "type": "checkbox",
+      "id": "reduce_vertical_padding",
+      "label": "Adjust vertical padding",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "vertical_padding",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Vertical margin"
+    },
+    {
+      "type": "checkbox",
+      "id": "reduce_vertical_margin",
+      "label": "Adjust vertical margin",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "vertical_margin",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Gap spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "reduce_gap",
+      "label": "Adjust gap between items",
+      "info": "Only works if the parent container uses flexbox or grid",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "gap_size",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Gap",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Custom CSS"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add any additional custom CSS rules here for advanced customization"
+    },
+    {
+      "type": "liquid",
+      "id": "custom_css",
+      "label": "Custom CSS code"
+    },
+    {
+      "type": "header",
+      "content": "Helper text"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_helper_text",
+      "label": "Show helper text",
+      "info": "Display a notice showing which selector is being targeted",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "helper_bg_color",
+      "label": "Helper background",
+      "default": "#f2f4f3"
+    },
+    {
+      "type": "color",
+      "id": "helper_text_color",
+      "label": "Helper text color",
+      "default": "#333333"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Menu spacing CSS"
+    }
+  ]
+}
 {% endschema %}
