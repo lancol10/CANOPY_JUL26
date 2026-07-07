@@ -255,7 +255,13 @@
           "type": "collection",
           "settings": {
             "collection": "bays",
-            "image": "shopify://shop_images/BaysKitchenBeef_Gravy800x1200_59efa39a-5c11-4e20-9c69-764414ea0d7b.jpg"
+            "image": "shopify://shop_images/Bays_Coeliac_week.png"
+          }
+        },
+        "collection_wzxhrQ": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
           }
         },
         "collection-1": {
@@ -315,6 +321,7 @@
       },
       "block_order": [
         "collection-0",
+        "collection_wzxhrQ",
         "collection-1",
         "collection-2",
         "collection_BDhAaX",
