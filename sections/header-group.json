@@ -39,8 +39,8 @@
         "link2_label": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
-        "bg_color": "#bca7e8",
-        "text_color": "#ffffff",
+        "bg_color": "#FFFFFF",
+        "text_color": "#2F670D",
         "text_type_scale": "small",
         "read_time": 5
       }
@@ -81,7 +81,7 @@
         "logo_text": "FODMarket",
         "logo_text_font": "mono",
         "logo_type_scale": "2.5",
-        "logo": "shopify://shop_images/logo_2_screenshot.png",
+        "logo": "shopify://shop_images/FODMarket_pink_box.png",
         "logo_width": 270,
         "logo_h1": true,
         "logo_position": "top-left",
@@ -102,11 +102,11 @@
         "cta_border_color": "#bca7e8",
         "cta_bg_color": "#bca7e8",
         "cta_text_color": "#ffffff",
-        "bg_color": "#ffffff",
-        "text_color": "#000000",
+        "bg_color": "#2F670D",
+        "text_color": "#FFFFFF",
         "accent_color": "#248249",
         "desktop_menu_bg_color": "#ffffff",
-        "desktop_menu_text_color": "#333333",
+        "desktop_menu_text_color": "#000000",
         "mobile_menu_bg_color": "#ffffff",
         "mobile_menu_text_color": "#333333"
       }
@@ -129,7 +129,7 @@
       ],
       "settings": {
         "section_height": "xsmall",
-        "color_scheme": "2",
+        "color_scheme": "1",
         "full_width": true,
         "dividers": "none",
         "prevent_animation": false
