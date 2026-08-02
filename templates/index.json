@@ -151,13 +151,48 @@
             "bg_color": "#070707",
             "bg_grad": ""
           }
+        },
+        "slide_bfQYLR": {
+          "type": "slide",
+          "settings": {
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "Subheading",
+            "heading": "Slideshow",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "<p>Share announcements and information with your customers and welcome them to your store.</p>",
+            "enlarge_text": true,
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#000000",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "countdown_border_radius": 6,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "count_border_color": "",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
         }
       },
       "block_order": [
         "slide_qREqbk",
         "slide_epJ6F3",
         "slide_rfrEJW",
-        "slide_FHY8Ct"
+        "slide_FHY8Ct",
+        "slide_bfQYLR"
       ],
       "settings": {
         "height_mode": "fixed",
@@ -173,7 +208,7 @@
         "autoplay_speed": 6,
         "color_scheme": "white",
         "full_width": true,
-        "tint_color": "#FFFFFF",
+        "tint_color": "#ffffff",
         "tint_opacity": 0,
         "accessibility_info": "",
         "prevent_animation": true
@@ -236,12 +271,12 @@
       "settings": {
         "heading": "",
         "heading_align": "text-start",
-        "icon_size": 40,
+        "icon_size": 28,
         "title_type_scale": "medium",
         "text_type_scale": "medium",
         "icon_position": "beside",
-        "mobile_stack": false,
-        "section_height": "small",
+        "mobile_stack": true,
+        "section_height": "xsmall",
         "color_scheme": "3",
         "full_width": true,
         "dividers": "none",
