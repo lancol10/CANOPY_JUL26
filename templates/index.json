@@ -493,6 +493,7 @@
         "template--16421463556296__d3452c30-29d7-4814-966e-d79bb0301f07-media-4",
         "template--16421463556296__d3452c30-29d7-4814-966e-d79bb0301f07-media-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Special Offers",
         "heading_align": "text-start",
@@ -572,20 +573,20 @@
         "button_ahGArY"
       ],
       "settings": {
-        "height_mode": "fixed",
-        "fixed_height_desktop": 600,
+        "height_mode": "auto",
+        "fixed_height_desktop": 350,
         "fixed_height_mobile": 350,
         "overlay_position": "justify-center items-center",
         "text_align": "text-center",
-        "mob_center_text": false,
+        "mob_center_text": true,
         "countdown_size": "18",
-        "countdown_border_radius": 8,
+        "countdown_border_radius": 11,
         "use_custom_colors": true,
         "count_color": "#333333",
-        "count_border_color": "",
-        "bg_color": "#fcca2c",
+        "count_border_color": "#C9A1E2",
+        "bg_color": "#C9A1E2",
         "bg_grad": "",
-        "color_scheme": "3",
+        "color_scheme": "1",
         "full_width": true,
         "tint_color": "#000000",
         "tint_opacity": 0
@@ -886,6 +887,7 @@
         "template--16154615972040__469535d3-25e8-4e5e-bb89-a1f2e83eec1b-text-1",
         "template--16154615972040__469535d3-25e8-4e5e-bb89-a1f2e83eec1b-button-1"
       ],
+      "disabled": true,
       "settings": {
         "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_description": "",
@@ -937,6 +939,7 @@
         "text_8ib6MB",
         "button_GxX86B"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "small",
         "color_scheme": "2",
