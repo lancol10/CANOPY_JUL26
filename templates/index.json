@@ -521,7 +521,7 @@
         "card_size_mobile": "small",
         "card_size": "small",
         "products_to_show": 16,
-        "color_scheme": "none",
+        "color_scheme": "1",
         "card_contain": true,
         "full_width": true
       }
@@ -583,8 +583,8 @@
         "countdown_border_radius": 11,
         "use_custom_colors": true,
         "count_color": "#333333",
-        "count_border_color": "#C9A1E2",
-        "bg_color": "#C9A1E2",
+        "count_border_color": "#EDC94E",
+        "bg_color": "#EDC94E",
         "bg_grad": "",
         "color_scheme": "1",
         "full_width": true,
@@ -1060,6 +1060,7 @@
         "heading_crkBwJ",
         "text_8CVJfb"
       ],
+      "disabled": true,
       "settings": {
         "text_position": "justify-center",
         "text_align": "text-center",
@@ -1169,6 +1170,7 @@
         "column_hqTkHa",
         "column_CKfKkQ"
       ],
+      "disabled": true,
       "settings": {
         "title": "Let us help...",
         "heading_align": "text-start",

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer Group",
@@ -17,7 +26,7 @@
         "text_RDRhrq": {
           "type": "text",
           "settings": {
-            "text": "<p>Save when you shop with our offers & promotions<\/p>",
+            "text": "<p>Save when you shop with our offers & promotions</p>",
             "enlarge_text": false,
             "show_on_mobile": false,
             "show_on_desktop": true
@@ -39,9 +48,9 @@
       ],
       "settings": {
         "section_height": "small",
-        "color_scheme": "3",
+        "color_scheme": "1",
         "full_width": true,
-        "dividers": "none",
+        "dividers": "border-top border-bottom",
         "prevent_animation": false
       }
     },
@@ -51,8 +60,9 @@
         "f75b636b-2690-411e-bb81-c40df3033d64": {
           "type": "text",
           "settings": {
-            "image": "",
             "image_width": 120,
+            "heading": "Talk about your store",
+            "text": "<p>Share store details, promotions, or brand content with your customers.</p>",
             "enable_follow_on_shop": true,
             "show_social": true,
             "text_align": "text-start"
@@ -76,7 +86,7 @@
           "type": "newsletter",
           "settings": {
             "heading": "Recipes & Inspiration",
-            "text": "<p>Join our community to get exclusive offers, original recipes, event invites and more...<\/p>",
+            "text": "<p>Join our community to get exclusive offers, original recipes, event invites and more...</p>",
             "collapse_mobile": true
           }
         }
@@ -93,7 +103,8 @@
         "show_powered_by": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
-        "bg_color": "#f2f4f3",
+        "secondary_menu": "",
+        "bg_color": "#FFFAEB",
         "text_color": "#333333"
       }
     }
